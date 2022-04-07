@@ -1,3 +1,6 @@
+exercicios/3.2
+h1{
+=======
 body {
 	font-size: 16px;
 	background-color: steelblue;
@@ -5,23 +8,25 @@ body {
 
 h1 {
 	font-family: sans-serif, Helvetica;
+  master
 	font-size: 65px;
 	color: orange;
-
+	font-family: sans-serif, Helvertica;
 }
-.cor {
+ul{
 	background-color: tomato;
 }
-.pergunta{
+.cor-de-fundo{
 	background-color: red;
 }
 p {
-	font-size: 600;
-}	
-p {
+	font-weight: 600;
 	font-size: 3em;
 }
-li {
+body {
+	font-size: 16px;
+}
+li{
 	font-style: italic;
 	line-height: 60px;
 	text-align: center;
@@ -29,7 +34,19 @@ li {
 
 	font-size: 2em;
 }
+exercicios/3.2
+#amarelo {
+	background-color: yellow;
+}
+#vermelho {
+	background-color: red;
+}
+#marrom {
+	background-color: brown;
+}
+
 #amarelo {background-color: yellow};
 #vermelho {background-color: red};
 #marrom {background-color: brown};
 
+master
