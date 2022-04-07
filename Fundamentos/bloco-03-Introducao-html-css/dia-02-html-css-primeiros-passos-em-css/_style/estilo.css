@@ -1,3 +1,4 @@
+exercicios/3.2
 body {
 	font-size: 16px;
 	background-color: steelblue;
@@ -32,3 +33,48 @@ li {
 #amarelo {background-color: yellow;}
 #vermelho {background-color: red;}
 #marrom {background-color: brown;}
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+body{
+    font-size: 16px;
+
+}
+ul{
+    background-color: tomato;
+}
+h1{
+    font-family: sans-serif, Helvetica;
+    font-size: 65px;
+    color: orange;
+exercicios/3.1
+
+}
+
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+}
+.pergunta{
+    background-color: red;
+}
+li{
+    font-style: italic;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+#amarelo{
+    background-color: yellow;
+}
+#vermelho{
+    background-color: red;
+}
+#marrom{
+    background-color: brown;
+}
+master
+master
