@@ -1,28 +1,22 @@
-exercicios/3.2
-body {
-	font-size: 16px;
-	background-color: steelblue;
-}
-
-h1 {
-	font-family: sans-serif, Helvetica;
+h1{
 	font-size: 65px;
 	color: orange;
-
+	font-family: sans-serif, Helvertica;
 }
-.cor {
+ul{
 	background-color: tomato;
 }
-.pergunta{
+.cor-de-fundo{
 	background-color: red;
 }
 p {
-	font-size: 600;
-}	
-p {
+	font-weight: 600;
 	font-size: 3em;
 }
-li {
+body {
+	font-size: 16px;
+}
+li{
 	font-style: italic;
 	line-height: 60px;
 	text-align: center;
@@ -30,51 +24,12 @@ li {
 
 	font-size: 2em;
 }
-#amarelo {background-color: yellow;}
-#vermelho {background-color: red;}
-#marrom {background-color: brown;}
-*{
-    margin: 0;
-    padding: 0;
-     
+#amarelo {
+	background-color: yellow;
 }
-body{
-    font-size: 16px;
-
+#vermelho {
+	background-color: red;
 }
-ul{
-    background-color: tomato;
+#marrom {
+	background-color: brown;
 }
-h1{
-    font-family: sans-serif, Helvetica;
-    font-size: 65px;
-    color: orange;
-exercicios/3.1
-
-}
-
-}
-p{
-    font-weight: 600;
-    font-size: 3em;
-}
-.pergunta{
-    background-color: red;
-}
-li{
-    font-style: italic;
-    line-height: 60px;
-    text-align: center;
-    text-decoration: underline;
-}
-#amarelo{
-    background-color: yellow;
-}
-#vermelho{
-    background-color: red;
-}
-#marrom{
-    background-color: brown;
-}
-master
-master
