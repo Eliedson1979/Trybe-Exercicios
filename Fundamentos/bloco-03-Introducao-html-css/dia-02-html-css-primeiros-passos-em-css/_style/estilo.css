@@ -1,4 +1,14 @@
+exercicios/3.2
 h1{
+=======
+body {
+	font-size: 16px;
+	background-color: steelblue;
+}
+
+h1 {
+	font-family: sans-serif, Helvetica;
+  master
 	font-size: 65px;
 	color: orange;
 	font-family: sans-serif, Helvertica;
@@ -24,6 +34,7 @@ li{
 
 	font-size: 2em;
 }
+exercicios/3.2
 #amarelo {
 	background-color: yellow;
 }
@@ -33,3 +44,9 @@ li{
 #marrom {
 	background-color: brown;
 }
+
+#amarelo {background-color: yellow};
+#vermelho {background-color: red};
+#marrom {background-color: brown};
+
+master
