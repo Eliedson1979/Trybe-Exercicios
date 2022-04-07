@@ -1,24 +1,19 @@
-.caixa {
-	color: white;
-	display: inline-block;
-	line-height: 50px;
-	text-align: center;
-	vertical-align: top;
+.super-mario {
+  width: 200px;
 }
 
-.width-and-height {
-	height: 50px;
-	width: 50px;
+.goomba {
+  width: 100px;
 }
 
-.padding {
-	padding: 20px;
+.baloon {
+
 }
 
-.margin {
-	margin: 30px;
+.speach {
+  font-size: 25px;
 }
 
-.border {
-	border: 5px solid black;
+.bowser {
+  width: 200px;
 }
