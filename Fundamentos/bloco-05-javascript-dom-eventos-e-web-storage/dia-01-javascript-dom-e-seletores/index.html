@@ -7,6 +7,7 @@
     
     <style>
       main, section {
+        text-align: center;
         border-color: black;
         border-style: solid;
       }
@@ -63,11 +64,42 @@
 
     // EXERCICIO 2
     function alterarCor(){
-        let quadrado = document.getElementsByClassName('center-content')[0];
-        quadrado.style.backgroundColor = 'rgb(76,164,109)';
+        let quadradoYellow = document.getElementsByClassName('main-content')[0];
+        quadradoYellow.style.backgroundColor = 'rgb(76,164,109)';
     }
     alterarCor();
-    
+
+    // EXERCICIO 3
+    function alterarCor2(){
+      let quadradoRed = document.getElementsByClassName('center-content')[0];
+      quadradoRed.style.background = 'white';
+    }
+    alterarCor2();
+
+    // EXERCICIO 4
+    function alterarTitulo(){
+      let titulo = document.getElementsByTagName('h1')[0];
+      titulo.innerHTML = 'Exercício 5.1 - JavaScript';
+    }
+    alterarTitulo();
+
+    // EXERCICIO 5
+    function alterarTexto(){
+      let texto = document.getElementsByTagName('p');
+      for(let i = 0; i < texto.length; i += 1){
+        texto[i].innerHTML = texto[i].innerHTML.toUpperCase();
+      }
+    }
+    alterarTexto();
+
+    // EXERCICIO 6
+    function exibirTexto(){
+      let conteudo = document.getElementByTagName('p');
+      for(let index = 0; index < conteudo.length; index += 1){
+        console.log(texto[index].innerHTML);
+      }
+    }
+      exibirTexto();
 
 
     </script>
