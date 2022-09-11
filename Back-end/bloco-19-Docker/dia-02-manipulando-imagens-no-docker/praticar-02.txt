@@ -1,3 +1,5 @@
+       EXERCICIOS
+       
 1 - FROM chuanwen/cowsay:latest
 2 - ENTRYPOINT [ "/usr/games/cowsay" ]
 3 - CMD [ "#VQV Trybe" ]
