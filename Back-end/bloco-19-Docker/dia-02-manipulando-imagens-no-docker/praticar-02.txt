@@ -1,0 +1,5 @@
+1 - FROM chuanwen/cowsay:latest
+2 - ENTRYPOINT [ "/usr/games/cowsay" ]
+3 - CMD [ "#VQV Trybe" ]
+4 - docker image build ./ -t cowsay
+5 - docker container run cowsay -f nome a seguir (-l lista todas as entrada)
