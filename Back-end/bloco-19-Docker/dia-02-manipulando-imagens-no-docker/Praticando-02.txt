@@ -1,0 +1,7 @@
+1 - Criando um Dockerfile => FROM chuanwen/cowsay:latest
+2 - Criando um EntryPoint => ENTRYPOINT [ "/usr/games/cowsay" ]
+3 - Utilizando o CMD => CMD [ "#VQV Trybe" ]
+4 - Gerando uma Build => docker image build ./ -t cowsay
+5 - rodando o container => docker container run cowsay -f e seguida o nome da lista ( -l verifica o nome da lista)
+
+ 

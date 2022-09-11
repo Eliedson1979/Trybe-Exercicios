@@ -1,0 +1,13 @@
+1 - Acessando o site DockerHub
+2 - pesquisando a imagem linux/Debian
+3 - baixando a imagem => docker pull debian:stable-slim
+4 - criando o container no modo interativo => docker container run -it debian:stable-slim
+5 - rodando o comando no terminal => cat /etc/*-release
+6 - encerrando o terminal => exit
+7 - listando o container => docker container ps -a
+8 - iniciando o container no mesmo id => docker start <CONTAINER ID || NAMES>
+9 - retorna o container no terminal => docker attach <CONTAINER ID || NAMES>
+10 - rodando o comando no terminal => cat /etc/debian_version
+11 - encerrar o terminal => exit
+12 - removendo o cantainer => docker container rm -f (id)
+ 
