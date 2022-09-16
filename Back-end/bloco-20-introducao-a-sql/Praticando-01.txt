@@ -1,0 +1,18 @@
+01 - Pesquisar a tabela no BD_SAKILA => select * from sakila.actor;
+02 - criar uma tabela sem usar código SQL => CREATE DATABASE (NOME);
+03 - crie a seguinte tabela => CREATE DATABASE filme;
+Colunas:
+filme_id - primary key, tipo int, incrementa por 1 cada vez que um valor é inserido automaticamente;
+descricao - não permite nulos, tipo texto (varchar(100));
+ano_lancamento - não permite nulos, tipo int;
+nota - permite nulos, tipo int;
+04 - Analise a tabela city => Ela faz referência à tabela country.
+05 - qual tipo de relacionamento a tabela city faz com a tabela country?
+R = N:1
+06 - Qual tipo de relacionamento a tabela country faz com a tabela city?
+R = N
+07 - Abra tabela por tabela do banco sakila e encontre no mínimo 3 exemplos de um relacionamentos 1:N ou N:1.
+R =
+A - store -> staff
+B - country -> city
+c - film -> language
