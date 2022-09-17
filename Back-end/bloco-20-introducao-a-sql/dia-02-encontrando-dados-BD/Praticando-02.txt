@@ -1,0 +1,51 @@
+01 - Escreva uma query para exibir a string "This is SQL Exercise, Practice and Solution".
+R = USE Scientists;
+    SELECT 'This is SQL Exercise, Practice and Solution';
+
+02 - Escreva uma query para exibir três números em três colunas.
+R = SELECT 1, 2, 3 FROM Scientists
+
+03 - Escreva uma query para exibir a soma dos números 10 e 15
+R = SELECT 10 + 15 FROM Scientists
+
+04 - Escreva uma query para exibir o resultado de uma expressão aritmética qualquer.
+R = SELECT (3 * 4) + 12 FROM Scientists
+
+05 - Escreva uma query para exibir todas as informações de todos os cientistas.
+R = SELECT * FROM Scientists
+
+06 - Escreva uma query para exibir o nome como "nome_do_projeto" e as horas como "tempo_de_trabalho" de cada projeto.
+R = SELECT name AS 'Nome_do_projetos', hours AS 'Tempo_de_trabalho' FROM Scientists.Projects;
+
+07 - Escreva uma query para exibir o nome dos cientistas em ordem alfabética.
+R = SELECT name  FROM Scientists.Projects
+    ORDER BY name ASC; 
+
+08 - Escreva uma query para exibir o nome dos projetos em ordem alfabética descendente
+R = SELECT name  FROM Scientists.Projects
+    ORDER BY name DESC; 
+
+09 - Escreva uma query que exiba a string "O projeto name precisou de hours horas para ser concluído." para cada projeto
+R = SELECT CONCAT('O projeto', name, 'precisou de', hours, 'horas para ser concluido') AS resultado FROM Scientists.Projects; 
+
+10 - Escreva uma query para exibir o nome e as horas dos três projetos com a maior quantidade de horas.
+R = SELECT name, hours FROM Scientists.Projects 
+    ORDER BY hours DESC LIMIT 3; 
+
+11 - Escreva uma query para exibir o código de todos os projetos da tabela AssignedTo sem que haja repetições.
+R = SELECT DISTINCT project  FROM Scientists.AssignedTo;
+
+12 - Escreva uma query para exibir o nome do projeto com maior quantidade de horas.
+R = SELECT name FROM Scientists.Projects
+    ORDER BY hours DESC LIMIT 1;
+
+13 - Escreva uma query para exibir o nome do segundo projeto com menor quantidade de horas
+R = SELECT name FROM Scientists.Projects
+    ORDER BY hours ASC LIMIT 1 OFFSET 1;
+
+14 - Escreva uma query para exibir todas as informações dos cinco projetos com a menor quantidade de horas0.
+R = SELECT * FROM Scientists.Projects
+    ORDER BY hours ASC LIMIT 5; 
+
+15 - Escreva uma query que exiba a string "Existem Number cientistas na tabela Scientists.", em que Number se refira a quantidade de cientistas.
+R = SELECT CONCAT('Existem ', COUNT(name), 'cientistas na tabela Scientists.') As resultado FROM Scientists;                    
