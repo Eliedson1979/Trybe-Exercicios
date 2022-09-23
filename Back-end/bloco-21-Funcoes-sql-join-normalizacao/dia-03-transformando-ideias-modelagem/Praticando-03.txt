@@ -1,0 +1,26 @@
+1 - Um zoológico precisa de um banco de dados para armazenar informações sobre os seus animais. As informações a serem armazenadas sobre cada animal são:
+R = Identificação das Entidades:
+
+Entidade 1: Animal;
+Entidade 2: Cuidador;
+Entidade 3: Gerente;
+Entidade 4: Cuidador e Animal;
+Identificação dos Atributos:
+
+Animal: animal_id, nome, especie, sexo, idade e localização;
+Cuidador: cuidador_id, nome, gerente_id;
+Gerente: gerente_id e nome;
+Cuidador e Animal: cuidador_id e animal_id;
+
+DROP SCHEMA IF EXISTS zoologico;
+CREATE SCHEMA zoologico;
+USE zoologico;
+
+CREATE TABLE animal(
+    animal_id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(50) NOT NULL,
+    especie VARCHAR(50) NOT NULL,
+    sexo VARCHAR(50) NOT NULL,
+    idade INT NOT NULL,
+    localizacao VARCHAR(50) NOT NULL
+);
